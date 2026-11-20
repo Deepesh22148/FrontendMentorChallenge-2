@@ -8,6 +8,7 @@ export default function Home() {
           <Image
             src={"/resources/illustration-article.svg"}
             alt={"blog-image"}
+            loading="eager"
             width={500}
             height={500}
             className="h-full w-full rounded-xl"
@@ -20,7 +21,7 @@ export default function Home() {
           <div className="text-sm font-bold">Published 21 Dec 2023</div>
         </div>
         <div className="flex flex-col gap-2 py-2">
-          <h1 className="font-extrabold text-xl">HTML & CSS foundations</h1>
+          <h1 className="font-extrabold text-xl hover:text-[#f4d04e] cursor-pointer">HTML & CSS foundations</h1>
           <p className="text-gray-700">
             These languages are the backbone of every website, defining
             structure, content, and presentation.
